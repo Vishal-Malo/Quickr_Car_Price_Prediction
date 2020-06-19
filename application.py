@@ -25,7 +25,7 @@ def predict():
 
         price = predictor(company, year, kms, fuel)
         return str(price[0])
-    return render_template('login.html')
+    return render_template('index.html')
 
 
 def predictor(company, year, kms, fuel):
